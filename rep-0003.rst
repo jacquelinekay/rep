@@ -115,7 +115,6 @@ Hydro Medusa (Aug 2013)
 
 - For rosbuild based packages can still be built from source.
 
-
 Indigo Igloo (May 2014)
 -----------------------
 - Ubuntu Saucy (13.10)
@@ -184,9 +183,8 @@ Kinetic Kame (May 2016 - May 2018)
 ----------------------------------
 Required Support for:
 
-- Ubuntu Trusty (14.04)
-- Ubuntu Vivid (15.04)
 - Ubuntu Wily (15.10)
+- Ubuntu X (16.04)
 
 Minimum Requirements:
 
