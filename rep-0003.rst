@@ -189,8 +189,7 @@ Required Support for:
 Minimum Requirements:
 
 - C++03
-
-  - Some C++11 will be enabled (TODO(esteve): need to determine which ones)
+- C++11
 
 - Python 2.7
 
