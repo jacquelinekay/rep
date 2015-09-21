@@ -196,16 +196,15 @@ Minimum Requirements:
 
   - Python 3.4 not required, but testing against it is recommended
 
-- Lisp SBCL 1.1.14
-- CMake 2.8.12
-- Boost 1.54
+- Lisp SBCL 1.2.4
+- CMake 3.0.2
+- Boost 1.58
 
 Exact or Series Requirements:
 
-- Ogre3D 1.8.x (Trusty)
-- Ogre3D 1.9.x (Other Systems)
+- Ogre3D 1.9.x
 - Gazebo 5 (TODO(esteve): or Gazebo 6?)
-- PCL 1.7.x
+- PCL 1.7.x (NOTE(esteve): maybe PCL 1.8 will be released by then, but Wily will only come with 1.7)
 - OpenCV 2.4.x
 
 Buildsystem support:
