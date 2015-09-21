@@ -179,7 +179,7 @@ Buildsystem support:
 
   - build from source
 
-Kinetic Kame (May 2016 - May 2018)
+Kinetic Kame (May 2016 - May 2021)
 ----------------------------------
 Required Support for:
 
