@@ -202,7 +202,7 @@ Minimum Requirements:
 Exact or Series Requirements:
 
 - Ogre3D 1.9.x
-- Gazebo 5 (TODO(esteve): or Gazebo 6?)
+- Gazebo 7
 - PCL 1.7.x (NOTE(esteve): maybe PCL 1.8 will be released by then, but Wily will only come with 1.7)
 - OpenCV 2.4.x
 
