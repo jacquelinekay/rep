@@ -184,7 +184,7 @@ Kinetic Kame (May 2016 - May 2021)
 Required Support for:
 
 - Ubuntu Wily (15.10)
-- Ubuntu X (16.04)
+- Ubuntu Xenial (16.04)
 
 Minimum Requirements:
 
