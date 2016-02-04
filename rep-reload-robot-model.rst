@@ -107,3 +107,24 @@ continues to publish frames.
 Publication of frames is stopped before loading the model, so that reading and
 writing does not happen at the same time."
 
+For completeness, the TriggerService idea should really be integrated with the
+URDF API to affect changes to the in-memory representation of the robot.
+((To do this in Python, I'll really have to separate urdf_parser_py into a
+ROS-specific API and non-ROS specific API, C++ already has this separation))
+
+
+Notes from a brief survey of core tools:
+==================================
+
+ros_controllers:
+  accesses robot_description from urdf::Model::initParam in
+    velocity_controllers/src/joint_position_controller.cpp
+    effort_controllers/src/joint_position_controller.cpp
+
+  gets from the parameter server (NodeHandle::getParam), loads into URDF with urdf::ParseURDF(string):
+    diff_drive_controller/src/diff_drive_controller.cpp
+
+moveit_ros:
+  urdf::Model::initString
+    planning/rdf_loader/src/rdf_loader.cpp
+
